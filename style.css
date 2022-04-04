@@ -64,6 +64,7 @@ li{
 
 .back_ground{
   background-image: url("image/top-image.jpeg");
+  background-size: cover;
   height: 600px;
   position: relative;
 }
@@ -86,4 +87,11 @@ h2{
 
 h3{
   font-size: 15px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
 }
